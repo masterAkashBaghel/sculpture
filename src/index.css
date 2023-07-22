@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello{
+    background: rgb(167,88,122);
+background: linear-gradient(90deg, rgba(167,88,122,1) 0%, rgba(76,127,188,1) 100%);
+}
+.box{
+    border:10px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient( black,rgb(176, 157, 157) ) padding-box, linear-gradient( 45deg,#FF52E5,#F6D242) border-box;
+}
+.hov:hover{
+    opacity: 0.8;
+}
+
+/* Initial state */
+.zoom {
+    /* Set the initial scale to 1 (normal size) */
+    transform: scale(1);
+    /* Set the transition for scaling with a duration of 2 seconds */
+    transition: transform 2s;
+  }
+  
+  /* Hover state */
+  .zoom:hover {
+    /* Set the scale to 1.1 (10% larger than the initial size) on hover */
+    transform: scale(1.1);
+  }
