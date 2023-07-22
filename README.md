@@ -1,4 +1,5 @@
-Image Slider for Sculptures
+**Image Slider for Sculptures******
+
 This is a React-based image slider project that showcases various sculptures along with their respective artists and descriptions. The slider allows users to view different sculptures and learn more about each piece of art.
 
 Features
